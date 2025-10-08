@@ -48,7 +48,7 @@ class Car{
         this.year=year;
     }
     details(){
-        return Brand: ${this.brand}, Year:${this.year};
+        return `Brand: ${this.brand}, Year:${this.year}`;
     }
 }
 class Sedan extends Car{
@@ -57,7 +57,7 @@ class Sedan extends Car{
         this.balance=balance;
     }
     info(){
-        return Brand: ${this.brand}, Year: ${this.year}, Balance: ${this.balance};
+        return `Brand: ${this.brand}, Year: ${this.year}, Balance: ${this.balance}`;
     }
 }
 let myCar=new Car('Toyota',2015);
